@@ -102,18 +102,17 @@ Visit: [http://localhost:3000](http://localhost:3000)
 
 ```
 ThinkShare/
+├── public/                  # Static assets like favicon, images, etc.
 ├── src/
-│   ├── components/
-│   ├── pages/
-│   ├── redux/
-│   ├── appwrite/
-│   └── utils/
-├── public/
-├── appwriteConfig.js
-├── package.json
-└── README.md
-```
-
+│   ├── appwrite/            # Appwrite service logic (database, auth, config)
+│   ├── components/          # Reusable UI components (Header, Footer, etc.)
+│   ├── pages/               # Application pages (Home.jsx, Login.jsx, Signup.jsx, About.jsx, etc.)
+│   ├── redux/               # Redux Toolkit store and feature slices
+│   ├── utils/               # Helper functions and utilities
+│   └── main.jsx             # Application entry point
+├── appwriteConfig.js        # Central config for Appwrite credentials and IDs
+├── package.json             # NPM package config and dependencies
+└── README.md                # Project documentation
 ---
 
 ## 🤝 Contributing
