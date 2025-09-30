@@ -101,18 +101,27 @@ Visit: [http://localhost:3000](http://localhost:3000)
 ## 📁 Project Structure (Simplified)
 
 ```
+---
+
+## 📁 Project Structure (Simplified)
+
 ThinkShare/
-├── public/                  # Static assets like favicon, images, etc.
+├── public/ # Static assets
 ├── src/
-│   ├── appwrite/            # Appwrite service logic (database, auth, config)
-│   ├── components/          # Reusable UI components (Header, Footer, etc.)
-│   ├── pages/               # Application pages (Home.jsx, Login.jsx, Signup.jsx, About.jsx, etc.)
-│   ├── redux/               # Redux Toolkit store and feature slices
-│   ├── utils/               # Helper functions and utilities
-│   └── main.jsx             # Application entry point
-├── appwriteConfig.js        # Central config for Appwrite credentials and IDs
-├── package.json             # NPM package config and dependencies
-└── README.md                # Project documentation
+│ ├── appwrite/ # Appwrite service integrations
+│ ├── components/ # Reusable UI components
+│ ├── pages/ # Route pages (Home, Login, Signup, About, etc.)
+│ ├── redux/ # Redux Toolkit slices and store
+│ ├── utils/ # Utility functions (e.g., validation, helpers)
+│ └── main.jsx # Entry point
+├── appwriteConfig.js # Config for Appwrite credentials
+├── package.json # Project metadata and dependencies
+└── README.md # Project documentation
+
+yaml
+Copy code
+
+---
 ---
 
 ## 🤝 Contributing
